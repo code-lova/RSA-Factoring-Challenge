@@ -1,32 +1,13 @@
-RSA Factoring Challenge
+# RSA Factoring Challenge :cat:
+This repo is just an attempt to read in and factorize a file of numbers.
 
-0.Factorize all the things!
+## Description of what each file shows:
+* factors - the program to factorize (Usage: time ./factors tests/test00)
+* tests/test00 - the file with the numbers
+### Environment
+* Language: Bash script
+* OS: Ubuntu 14.04 LTS
 
-0. Factorize all the things!#advanced
-Factorize as many numbers as possible into a product of two smaller numbers.
+## Author :octocat:
 
-Usage:factors <file>
-where<file>is a file containing natural numbers to factor.
-One number per line
-You can assume that all lines will be valid natural numbers greater than 1
-You can assume that there will be no empy line, and no space before and after the valid number
-The file will always end with a new line
-Output format:n=p*q
-one factorization per line
-pandqdon't have to be prime numbers
-See example
-You can work on the numbers of the file in the order of your choice
-Your program should run without any dependency: You will not be able to install anything on the machine we will run your program on
-Time limit: Your program will be killed after 5 seconds if it hasn't finish
-Push all your scripts, source code, etc... to your repository
-we will only run your executablefactors
-1. RSA Factoring Challenge#advanced
-RSA Laboratories states that: for each RSA numbern, there exist prime numberspandqsuch that
-
-n=p×q. The problem is to find these two primes, given onlyn.
-
-This task is the same as task 0, except:
-
-pandqare always prime numbers
-There is only one number in the files
-How far can you go in less than 5 seconds?
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
